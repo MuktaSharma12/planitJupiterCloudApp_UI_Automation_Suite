@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Planit Selenium Automation Tests" verbose="1">
+
+	<test name="Jupiter Cloud tests">
+
+		<parameter name="foreName" value="muktasharma" />
+		<parameter name="email" value="planit@gmail.com" />
+		<parameter name="message"
+			value="this is only for testing technical assignment" />
+
+		<classes>
+			<class name="com.qa.jupiter.tests.SubmitFormTest" />
+			<class name="com.qa.jupiter.tests.ContactsLinkTest" />
+			<class name="com.qa.jupiter.tests.ShopLinkTest" />
+			<class name="com.qa.jupiter.tests.TotalPriceTest" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+

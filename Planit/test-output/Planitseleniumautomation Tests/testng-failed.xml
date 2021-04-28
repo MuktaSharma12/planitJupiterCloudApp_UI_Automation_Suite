@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Planitseleniumautomation Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Jupiter Cloud tests(failed)">
+    <parameter name="forename" value="mukta"/>
+    <parameter name="message" value="this is only for testing purposes"/>
+    <parameter name="email" value="abc@gmail.com"/>
+    <classes>
+      <class name="com.qa.jupitertests.HomeTest">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="verifyAlert"/>
+          <include name="teardownTest"/>
+        </methods>
+      </class> <!-- com.qa.jupitertests.HomeTest -->
+    </classes>
+  </test> <!-- Jupiter Cloud tests(failed) -->
+</suite> <!-- Failed suite [Planitseleniumautomation Tests] -->

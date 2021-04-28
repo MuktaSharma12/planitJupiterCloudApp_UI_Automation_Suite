@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{1099=Item Price Quantity Subtotal Actions
+Stuffed Frog $10.99 $21.98
+Fluffy Bunny $9.99 $49.95
+Valentine Bear $14.99 $44.97
+Total: 116.9
+Check Out Empty Cart}<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-28T17:29:35 BST" name="TestNG Planit Selenium Automation Tests" finished-at="2021-04-28T17:31:42 BST" duration-ms="127007">
+    <groups>
+    </groups>
+    <test started-at="2021-04-28T17:29:35 BST" name="Jupiter Cloud tests" finished-at="2021-04-28T17:31:42 BST" duration-ms="127007">
+      <class name="com.qa.jupiter.tests.ContactsLinkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:25 BST" name="setUp" finished-at="2021-04-28T17:30:28 BST" duration-ms="2712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnContactsLinkTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:28 BST" name="clickOnContactsLinkTest" finished-at="2021-04-28T17:30:30 BST" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContactsLinkTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:30 BST" name="teardownTest" finished-at="2021-04-28T17:30:32 BST" duration-ms="1705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.qa.jupiter.tests.ContactsLinkTest -->
+      <class name="com.qa.jupiter.tests.SubmitFormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:35 BST" name="setUp" finished-at="2021-04-28T17:29:38 BST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:38 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:29:44 BST" duration-ms="5686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[planit@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is only for testing technical assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitFormTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:44 BST" name="teardownTest" finished-at="2021-04-28T17:29:45 BST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:45 BST" name="setUp" finished-at="2021-04-28T17:29:47 BST" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:47 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:29:53 BST" duration-ms="5654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[planit@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is only for testing technical assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitFormTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:53 BST" name="teardownTest" finished-at="2021-04-28T17:29:54 BST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:54 BST" name="setUp" finished-at="2021-04-28T17:29:57 BST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:57 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:02 BST" duration-ms="5545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[planit@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is only for testing technical assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitFormTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:02 BST" name="teardownTest" finished-at="2021-04-28T17:30:03 BST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:03 BST" name="setUp" finished-at="2021-04-28T17:30:05 BST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:05 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:11 BST" duration-ms="5545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[planit@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is only for testing technical assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitFormTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:11 BST" name="teardownTest" finished-at="2021-04-28T17:30:12 BST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:12 BST" name="setUp" finished-at="2021-04-28T17:30:15 BST" duration-ms="2884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:15 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:20 BST" duration-ms="5666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[planit@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[this is only for testing technical assignment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmitFormTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:20 BST" name="teardownTest" finished-at="2021-04-28T17:30:21 BST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:21 BST" name="setUp" finished-at="2021-04-28T17:30:24 BST" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAlertMessage(java.lang.String)[pri:2, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:24 BST" name="verifyAlertMessage" finished-at="2021-04-28T17:30:24 BST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muktasharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAlertMessage -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:24 BST" name="teardownTest" finished-at="2021-04-28T17:30:25 BST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.qa.jupiter.tests.SubmitFormTest -->
+      <class name="com.qa.jupiter.tests.TotalPriceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:02 BST" name="setUp" finished-at="2021-04-28T17:31:05 BST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnShopLinkTest()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:05 BST" name="clickOnShopLinkTest" finished-at="2021-04-28T17:31:41 BST" duration-ms="35883" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{1099=Item Price Quantity Subtotal Actions
+Stuffed Frog $10.99 $21.98
+Fluffy Bunny $9.99 $49.95
+Valentine Bear $14.99 $44.97
+Total: 116.9
+Check Out Empty Cart}<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnShopLinkTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:41 BST" name="teardownTest" finished-at="2021-04-28T17:31:42 BST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.qa.jupiter.tests.TotalPriceTest -->
+      <class name="com.qa.jupiter.tests.ShopLinkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:30:32 BST" name="setUp" finished-at="2021-04-28T17:30:35 BST" duration-ms="3321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnShopLinkTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:30:35 BST" name="clickOnShopLinkTest" finished-at="2021-04-28T17:31:01 BST" duration-ms="26616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnShopLinkTest -->
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:31:01 BST" name="teardownTest" finished-at="2021-04-28T17:31:02 BST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+      </class> <!-- com.qa.jupiter.tests.ShopLinkTest -->
+    </test> <!-- Jupiter Cloud tests -->
+  </suite> <!-- TestNG Planit Selenium Automation Tests -->
+</testng-results>
