@@ -39,14 +39,14 @@ public class SubmitFormTest {
 		//Thread.sleep(2000);
 		driver.findElement(By.id("forename")).clear();
 		driver.findElement(By.id("forename")).sendKeys(foreName);
-		
+
 		driver.findElement(By.name("email")).clear();
 		driver.findElement(By.name("email")).sendKeys(email);
 
-	    driver.findElement(By.id("message")).clear();
-	    driver.findElement(By.id("message")).sendKeys(message);
+		driver.findElement(By.id("message")).clear();
+		driver.findElement(By.id("message")).sendKeys(message);
 
-		
+
 		//submit button
 		driver.findElement(By.xpath("//a[normalize-space()='Submit']")).click();
 		Thread.sleep(5000);
@@ -64,23 +64,23 @@ public class SubmitFormTest {
 	@Test(priority=2)
 	@Parameters({"foreName"})
 	public void verifyAlertMessage(String foreName) throws InterruptedException {
-		
-			
-	//	WebElement msg = driver.findElement(By.xpath("//div[@class='alert alert-success']//strong[@class='ng-binding']"));
-	//	String text=msg.getText();
+
+
+		//	WebElement msg = driver.findElement(By.xpath("//div[@class='alert alert-success']//strong[@class='ng-binding']"));
+		//	String text=msg.getText();
 		String expectedmessage = "Thanks <foreName>, we appreciate your feedback.";
 		//Assert.assertEquals(text,expectedmessage);
-				
+
 	}
 
 	/**
 	 * Tear down the set up after the test completes
 	 * @throws InterruptedException 
 	 */
-	
+
 	@AfterMethod
 	public void teardownTest() throws InterruptedException {
-		
+
 		driver.quit();
 		System.out.println("SubmitFormTest completed successfully");
 	}

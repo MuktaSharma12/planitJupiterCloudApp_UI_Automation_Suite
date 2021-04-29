@@ -1,6 +1,5 @@
 package com.qa.jupiter.tests;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -9,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -29,7 +27,7 @@ public class TotalPriceTest {
 		driver.get("http://jupiter.cloud.planittesting.com/#/");
 	}
 
-	@Test
+	@Test(priority=1)
 	public void clickOnShopLinkTest() throws InterruptedException {
 
 		driver.findElement(By.xpath("//a[text()='Shop']")).click();
@@ -57,27 +55,9 @@ public class TotalPriceTest {
 		driver.findElement(By.xpath("//a[@href='#/cart']")).click();
 		Thread.sleep(2000);
 
-		//WebElement table =driver.findElement(By.xpath("//table[@class='table table-striped cart-items']"));
-		//System.out.println(table.getText());
+		WebElement webtable =driver.findElement(By.xpath("//table[@class='table table-striped cart-items']"));
 
-		List<WebElement> list_of_products = driver.findElements(By.xpath("//table[@class='table table-striped cart-items']"));
-
-
-		List<WebElement> list_of_products_price = driver.findElements(By.xpath("//td[normalize-space()='$10.99']"));
-		//Use of HashMaop to store Products and Their prices(after conversion to Integer)
-		String product_name;
-		String product_price;
-		int int_product_price;
-		HashMap<Integer, String> map_final_products = new HashMap<Integer,String>();
-		for(int i=0;i<list_of_products.size();i++) {
-			product_name = list_of_products.get(i).getText();//Iterate and fetch product name
-
-			product_price = list_of_products_price.get(i).getText();//Iterate and fetch product price
-			product_price = product_price.replaceAll("[^0-9]", "");//Replace anything with space other than numbers
-			int_product_price = Integer.parseInt(product_price);//Convert to Integer
-			map_final_products.put(int_product_price,product_name);//Add product and price in HashMap
-		}
-		Reporter.log("Product Name and price fetched from UI and saved in HashMap as:" + map_final_products.toString() + "<br>",true);
+		System.out.println(webtable.getText());
 
 		//locate and get the price for stufffrogs
 
@@ -108,15 +88,34 @@ public class TotalPriceTest {
 		Assert.assertEquals(expected_priceitem_valentine, actual_pricevalentine); 
 		System.out.println("The price of valentinebunny is " +actual_pricevalentine);
 
+		//locate and get the price for stufffrog
 		String exp_price_stuffedfrog = "$21.98";
-		WebElement quantity = driver.findElement(By.xpath("//input[@value='2']"));
-		String act_price_stuffedfrog = quantity.getText();
+		WebElement priceofstuffrog = driver.findElement(By.xpath("//td[normalize-space()='$21.98']"));
+		String act_price_stuffedfrog = priceofstuffrog.getText();
 
+		//verify the price for stuffrog
+		Assert.assertEquals(exp_price_stuffedfrog, act_price_stuffedfrog);
+		System.out.println("The price of stufffrog is " +act_price_stuffedfrog);
 
 	}
 
-
-
+	//	//function to check price for individual item and split $ from numbers
+	//	public boolean checkPriceIndItem(String price, String quantity, String total) {
+	//		{
+	//
+	//			String[] PriceConvt = price.split("$");
+	//			String[] TotalConvt = total.split("$");
+	//			int PriceInt = Integer.parseInt(PriceConvt[1]);
+	//			int Quanity = Integer.parseInt(quantity);
+	//			int TotalInt = Integer.parseInt(TotalConvt[2]);
+	//			int Temp = PriceInt*Quanity;
+	//			System.out.println("PriceInt: "+price +"Quantity: "+quantity +"TotalInt: "+total);
+	//
+	//
+	//			boolean value = Temp==TotalInt;
+	//
+	//			return value;
+	//		}
 
 
 

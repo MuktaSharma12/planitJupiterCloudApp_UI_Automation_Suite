@@ -6,20 +6,13 @@
     <parameter name="email" value="planit@gmail.com"/>
     <parameter name="foreName" value="muktasharma"/>
     <classes>
-      <class name="com.qa.jupiter.tests.SubmitFormTest">
+      <class name="com.qa.jupiter.tests.TotalPriceTest">
         <methods>
-          <include name="teardownTest"/>
-          <include name="verifyAlertMessage" invocation-numbers="0"/>
+          <include name="clickOnShopLinkTest"/>
           <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.jupiter.tests.SubmitFormTest -->
-      <class name="com.qa.jupiter.tests.ShopLinkTest">
-        <methods>
           <include name="teardownTest"/>
-          <include name="setUp"/>
-          <include name="verifyCartIsShowingSelectedItems"/>
         </methods>
-      </class> <!-- com.qa.jupiter.tests.ShopLinkTest -->
+      </class> <!-- com.qa.jupiter.tests.TotalPriceTest -->
     </classes>
   </test> <!-- Jupiter Cloud tests(failed) -->
 </suite> <!-- Failed suite [TestNG Planit Selenium Automation Tests] -->

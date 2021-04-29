@@ -26,7 +26,7 @@ public class ContactsLinkTest {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://jupiter.cloud.planittesting.com/#/"); 
-		
+
 	}
 
 	@Test
@@ -35,7 +35,7 @@ public class ContactsLinkTest {
 		driver.findElement(By.xpath("//a[@href='#/contact']")).click();
 		driver.findElement(By.xpath("//a[contains(.,'Submit')]")).click();
 		Thread.sleep(2000);
-		
+
 
 		//this will capture error message
 		String expect_msg="Forename is required"; 

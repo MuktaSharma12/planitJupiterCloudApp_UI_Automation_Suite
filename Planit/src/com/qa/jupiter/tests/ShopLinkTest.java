@@ -37,6 +37,7 @@ public class ShopLinkTest {
 
 		driver.findElement(By.xpath("//a[text()='Shop']")).click();
 		Thread.sleep(2000);
+
 		//identify and click on funny cow
 		for (int i = 0; i < 2; i++) {
 			WebElement funnycow = driver.findElement(By.xpath("//li[@id='product-6']//a[@class='btn btn-success'][normalize-space()='Buy']"));
@@ -55,11 +56,12 @@ public class ShopLinkTest {
 
 		// Now get all the TR elements from the table
 		List<WebElement> allRows = table.findElements(By.tagName("tr"));
+
 		// And iterate over them, getting the cells
 		for (WebElement row : allRows) {
 			List<WebElement> cells = row.findElements(By.tagName("td"));
 			for (WebElement cell : cells) {
-				System.out.println("content >>   " + cell.getText());
+				System.out.println("The shopping cart is displayed as >>   " + cell.getText());
 			}
 		}
 	}

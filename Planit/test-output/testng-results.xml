@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{1099=Item Price Quantity Subtotal Actions
-Stuffed Frog $10.99 $21.98
-Fluffy Bunny $9.99 $49.95
-Valentine Bear $14.99 $44.97
-Total: 116.9
-Check Out Empty Cart}<br>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-04-28T17:29:35 BST" name="TestNG Planit Selenium Automation Tests" finished-at="2021-04-28T17:31:42 BST" duration-ms="127007">
+  <suite started-at="2021-04-29T09:15:50 BST" name="TestNG Planit Selenium Automation Tests" finished-at="2021-04-29T09:17:59 BST" duration-ms="129047">
     <groups>
     </groups>
-    <test started-at="2021-04-28T17:29:35 BST" name="Jupiter Cloud tests" finished-at="2021-04-28T17:31:42 BST" duration-ms="127007">
+    <test started-at="2021-04-29T09:15:50 BST" name="Jupiter Cloud tests" finished-at="2021-04-29T09:17:59 BST" duration-ms="129047">
       <class name="com.qa.jupiter.tests.ContactsLinkTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:25 BST" name="setUp" finished-at="2021-04-28T17:30:28 BST" duration-ms="2712" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-29T09:16:43 BST" name="setUp" finished-at="2021-04-29T09:16:46 BST" duration-ms="2318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnContactsLinkTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:28 BST" name="clickOnContactsLinkTest" finished-at="2021-04-28T17:30:30 BST" duration-ms="2253" status="PASS">
+        <test-method signature="clickOnContactsLinkTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-29T09:16:46 BST" name="clickOnContactsLinkTest" finished-at="2021-04-29T09:16:48 BST" duration-ms="2262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnContactsLinkTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-28T17:30:30 BST" name="teardownTest" finished-at="2021-04-28T17:30:32 BST" duration-ms="1705" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ContactsLinkTest@4e268090]" started-at="2021-04-29T09:16:48 BST" name="teardownTest" finished-at="2021-04-29T09:16:49 BST" duration-ms="1686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- com.qa.jupiter.tests.ContactsLinkTest -->
       <class name="com.qa.jupiter.tests.SubmitFormTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:35 BST" name="setUp" finished-at="2021-04-28T17:29:38 BST" duration-ms="3291" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:15:50 BST" name="setUp" finished-at="2021-04-29T09:15:54 BST" duration-ms="4041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:38 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:29:44 BST" duration-ms="5686" status="PASS">
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:15:54 BST" name="clickOnSubmitFormTest" finished-at="2021-04-29T09:16:00 BST" duration-ms="5603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,15 +46,15 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSubmitFormTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:44 BST" name="teardownTest" finished-at="2021-04-28T17:29:45 BST" duration-ms="712" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:00 BST" name="teardownTest" finished-at="2021-04-29T09:16:00 BST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:45 BST" name="setUp" finished-at="2021-04-28T17:29:47 BST" duration-ms="2806" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:00 BST" name="setUp" finished-at="2021-04-29T09:16:04 BST" duration-ms="3253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:47 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:29:53 BST" duration-ms="5654" status="PASS">
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:04 BST" name="clickOnSubmitFormTest" finished-at="2021-04-29T09:16:09 BST" duration-ms="5549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,15 +75,15 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSubmitFormTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:53 BST" name="teardownTest" finished-at="2021-04-28T17:29:54 BST" duration-ms="706" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:09 BST" name="teardownTest" finished-at="2021-04-29T09:16:10 BST" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:54 BST" name="setUp" finished-at="2021-04-28T17:29:57 BST" duration-ms="2747" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:10 BST" name="setUp" finished-at="2021-04-29T09:16:14 BST" duration-ms="3834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:29:57 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:02 BST" duration-ms="5545" status="PASS">
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:14 BST" name="clickOnSubmitFormTest" finished-at="2021-04-29T09:16:19 BST" duration-ms="5596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,15 +104,15 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSubmitFormTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:02 BST" name="teardownTest" finished-at="2021-04-28T17:30:03 BST" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:19 BST" name="teardownTest" finished-at="2021-04-29T09:16:20 BST" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:03 BST" name="setUp" finished-at="2021-04-28T17:30:05 BST" duration-ms="2691" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:20 BST" name="setUp" finished-at="2021-04-29T09:16:23 BST" duration-ms="3171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:05 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:11 BST" duration-ms="5545" status="PASS">
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:23 BST" name="clickOnSubmitFormTest" finished-at="2021-04-29T09:16:29 BST" duration-ms="5549" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,15 +133,15 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSubmitFormTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:11 BST" name="teardownTest" finished-at="2021-04-28T17:30:12 BST" duration-ms="687" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:29 BST" name="teardownTest" finished-at="2021-04-29T09:16:30 BST" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:12 BST" name="setUp" finished-at="2021-04-28T17:30:15 BST" duration-ms="2884" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:30 BST" name="setUp" finished-at="2021-04-29T09:16:33 BST" duration-ms="3526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:15 BST" name="clickOnSubmitFormTest" finished-at="2021-04-28T17:30:20 BST" duration-ms="5666" status="PASS">
+        <test-method signature="clickOnSubmitFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:33 BST" name="clickOnSubmitFormTest" finished-at="2021-04-29T09:16:39 BST" duration-ms="5583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +162,15 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSubmitFormTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:20 BST" name="teardownTest" finished-at="2021-04-28T17:30:21 BST" duration-ms="685" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:39 BST" name="teardownTest" finished-at="2021-04-29T09:16:40 BST" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:21 BST" name="setUp" finished-at="2021-04-28T17:30:24 BST" duration-ms="3251" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:40 BST" name="setUp" finished-at="2021-04-29T09:16:43 BST" duration-ms="2946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAlertMessage(java.lang.String)[pri:2, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:24 BST" name="verifyAlertMessage" finished-at="2021-04-28T17:30:24 BST" duration-ms="2" status="PASS">
+        <test-method signature="verifyAlertMessage(java.lang.String)[pri:2, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:43 BST" name="verifyAlertMessage" finished-at="2021-04-29T09:16:43 BST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,43 +181,35 @@ Check Out Empty Cart}<br>]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAlertMessage -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-28T17:30:24 BST" name="teardownTest" finished-at="2021-04-28T17:30:25 BST" duration-ms="657" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.SubmitFormTest@37858383]" started-at="2021-04-29T09:16:43 BST" name="teardownTest" finished-at="2021-04-29T09:16:43 BST" duration-ms="682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- com.qa.jupiter.tests.SubmitFormTest -->
       <class name="com.qa.jupiter.tests.TotalPriceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:02 BST" name="setUp" finished-at="2021-04-28T17:31:05 BST" duration-ms="3221" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-29T09:17:20 BST" name="setUp" finished-at="2021-04-29T09:17:23 BST" duration-ms="2969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnShopLinkTest()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:05 BST" name="clickOnShopLinkTest" finished-at="2021-04-28T17:31:41 BST" duration-ms="35883" status="PASS">
+        <test-method signature="clickOnShopLinkTest()[pri:1, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-29T09:17:23 BST" name="clickOnShopLinkTest" finished-at="2021-04-29T09:17:58 BST" duration-ms="35757" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Product Name and price fetched from UI and saved in HashMap as:{1099=Item Price Quantity Subtotal Actions
-Stuffed Frog $10.99 $21.98
-Fluffy Bunny $9.99 $49.95
-Valentine Bear $14.99 $44.97
-Total: 116.9
-Check Out Empty Cart}<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- clickOnShopLinkTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-28T17:31:41 BST" name="teardownTest" finished-at="2021-04-28T17:31:42 BST" duration-ms="668" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.TotalPriceTest@306cf3ea]" started-at="2021-04-29T09:17:58 BST" name="teardownTest" finished-at="2021-04-29T09:17:59 BST" duration-ms="751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
       </class> <!-- com.qa.jupiter.tests.TotalPriceTest -->
       <class name="com.qa.jupiter.tests.ShopLinkTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:30:32 BST" name="setUp" finished-at="2021-04-28T17:30:35 BST" duration-ms="3321" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-29T09:16:49 BST" name="setUp" finished-at="2021-04-29T09:16:52 BST" duration-ms="2870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnShopLinkTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:30:35 BST" name="clickOnShopLinkTest" finished-at="2021-04-28T17:31:01 BST" duration-ms="26616" status="PASS">
+        <test-method signature="clickOnShopLinkTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-29T09:16:52 BST" name="clickOnShopLinkTest" finished-at="2021-04-29T09:17:19 BST" duration-ms="26505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnShopLinkTest -->
-        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-28T17:31:01 BST" name="teardownTest" finished-at="2021-04-28T17:31:02 BST" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="teardownTest()[pri:0, instance:com.qa.jupiter.tests.ShopLinkTest@1bb266b3]" started-at="2021-04-29T09:17:19 BST" name="teardownTest" finished-at="2021-04-29T09:17:20 BST" duration-ms="733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
